@@ -31,5 +31,17 @@ public class Reserva {
         return dataHora;
     }
 
-   
+   public String getStatusReserva() {
+        return statusReserva;
+    }
+
+    public void confirmarReserva() {
+        this.statusReserva = "Confirmada";
+    }
+
+    public void cancelarReserva() {
+        this.statusReserva = "Cancelada";
+    }
+
+    
 }
