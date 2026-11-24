@@ -30,5 +30,18 @@ public class Cliente {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente [id=" + id + ", nome=" + nome + ", telefone=" + telefone + "]";
+    }
     
 }

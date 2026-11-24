@@ -20,5 +20,18 @@ public class Restaurante {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    @Override
+    public String toString() {
+        return "Restaurante [id=" + id + ", nome=" + nome + "]";
+    }
     
 }
