@@ -43,5 +43,9 @@ public class Reserva {
         this.statusReserva = "Cancelada";
     }
 
-    
+    @Override
+    public String toString() {
+        return "Reserva [id=" + id + ", idCliente=" + idCliente + ", numeroMesa=" + numeroMesa
+        + ", dataHora=" + dataHora + ", statusReserva=" + statusReserva + "]";
+    }
 }
